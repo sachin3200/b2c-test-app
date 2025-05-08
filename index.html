@@ -42,11 +42,11 @@
             // Configure your B2C parameters
             const params = new URLSearchParams({
                 p: 'B2C_1_SignUpSignIn', // Your user flow name
-                client_id: '95e64642-41fe-442d-aa75-31cdb59d1faf', // Your app's client ID
+                client_id: 'fc4b49ad-762d-43e4-be6b-2260aa35b200', // Your app's client ID
                 nonce: generateNonce(), // Security measure
-                redirect_uri: 'https://nice-pond-0448de51e.6.azurestaticapps.net', // Your static app URL
+                redirect_uri: 'https://red-water-0a4005e1e.6.azurestaticapps.net', // Your static app URL
                 response_type: 'token id_token', // Request both token types
-                scope: 'openid 95e64642-41fe-442d-aa75-31cdb59d1faf offline_access', // Required scopes
+                scope: 'openid fc4b49ad-762d-43e4-be6b-2260aa35b200 offline_access', // Required scopes
                 prompt: 'select_account' // Forces account selection
             });
             
